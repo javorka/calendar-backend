@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended"
+//    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "strict": [2, "global"]
+  }
+}

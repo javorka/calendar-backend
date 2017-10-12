@@ -1,0 +1,29 @@
+{
+  "name": "calendar-backend",
+  "version": "1.0.0",
+  "description": "backend for calendar app",
+  "scripts": {
+    "start": "DEBUG=* node dist/index.js",
+    "build": "babel src --out-dir dist",
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.8.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-jest": "^21.2.0",
+    "flow-bin": "^0.56.0",
+    "jest": "^21.2.1"
+  },
+  "author": "Peter Javorka",
+  "license": "ISC"
+}
